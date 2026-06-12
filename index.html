@@ -1,5 +1,15 @@
-export default {
-  async fetch(request) {
-    return Response.redirect('https://docs.google.com/spreadsheets/d/1bWfQerRW1ttqFPEm4DbbxA-fXeK61WsnCxo45nqWlDo/edit?usp=sharing', 301);
-  }
-}
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="0; url=https://docs.google.com/spreadsheets/d/1bWfQerRW1ttqFPEm4DbbxA-fXeK61WsnCxo45nqWlDo/edit?usp=sharing">
+    <title>Redirecting...</title>
+    <script>
+        window.location.href = "https://docs.google.com/spreadsheets/d/1bWfQerRW1ttqFPEm4DbbxA-fXeK61WsnCxo45nqWlDo/edit?usp=sharing";
+    </script>
+</head>
+<body>
+    <p>Redirecting to Google Spreadsheet... <a href="https://docs.google.com/spreadsheets/d/1bWfQerRW1ttqFPEm4DbbxA-fXeK61WsnCxo45nqWlDo/edit?usp=sharing">Click here if not redirected</a></p>
+</body>
+</html>
